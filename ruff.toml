@@ -1,0 +1,6 @@
+indent-width = 2
+[lint.pyflakes]
+allowed-unused-imports = ["hvplot.pandas"]
+[lint]
+# Disable fix for unused imports (`F401`).
+unfixable = ["F401"]
